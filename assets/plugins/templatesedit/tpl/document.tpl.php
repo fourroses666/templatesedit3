@@ -31,10 +31,14 @@
     .choicesList i.selected { color: #fff; background-color: #1976d2 }
     .select-which-editor { float: right; position: relative; z-index: 9; margin: 0 0 .25rem }
     .mce-tinymce, .mce-top-part::before { -webkit-box-shadow: none !important; box-shadow: none !important; }
-    textarea:not([class]) { display: block }
+    textarea:not([class]) { display: block }   
+    @media (max-width: 1290px) {
+        .form-row .col-title { width: 10.5rem }
+    }
     @media (max-width: 767.98px) {
         .form-row .col-title { width: 100% }
     }
+
 </style>
 <script>
   function renderTvImageCheck(a)
